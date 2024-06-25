@@ -1,0 +1,27 @@
+/* src/components/GameBoard.css */
+.game-board {
+  display: inline-block;
+  background: #000;
+  border: 2px solid #fff;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #444;
+}
+
+.snake {
+  background: linear-gradient(45deg, green, darkgreen);
+  border-radius: 5px;
+}
+
+.food {
+  background: radial-gradient(circle, red, darkred);
+  border-radius: 50%;
+}

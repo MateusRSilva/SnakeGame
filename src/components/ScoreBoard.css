@@ -1,0 +1,7 @@
+/* src/components/ScoreBoard.css */
+.score-board {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  color: white;
+}

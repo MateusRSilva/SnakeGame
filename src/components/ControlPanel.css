@@ -1,0 +1,21 @@
+/* src/components/ControlPanel.css */
+.control-panel {
+  margin-bottom: 20px;
+}
+
+.pause-button {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #ff9800; /* Orange background */
+  border: none;
+  border-radius: 5px;
+  color: white; /* White text */
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.pause-button:hover {
+  background-color: #fb8c00; /* Darker orange */
+  transform: scale(1.05);
+}
